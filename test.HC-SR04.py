@@ -9,8 +9,8 @@ GPIO.setmode(GPIO.BCM)
 # GPIO.cleanup()
 
 #set GPIO Pins
-GPIO_TRIGGER = 17
-GPIO_ECHO = 18
+GPIO_TRIGGER = 26
+GPIO_ECHO = 20
  
 #set GPIO direction (IN / OUT)
 GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
